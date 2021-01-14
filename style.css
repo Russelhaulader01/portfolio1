@@ -429,6 +429,29 @@ body{
 
 }
 
+.more-ways{
+    text-align: center; 
+    margin-bottom: 20px;     
+} 
+
+
+
+.btn{
+    border: none; 
+    border-radius: 25px;    
+    cursor: pointer;     
+    font-size: 32px;
+    margin: 30px;
+    padding: 5px; 
+    width: 50px;
+    background-color: white;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: gray;
+  }
+
 
 
 /*footer styl start here
