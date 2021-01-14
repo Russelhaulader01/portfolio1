@@ -1,0 +1,473 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body{
+
+	margin:0;
+	padding:0;
+
+}
+
+/*=======================
+  Nav style start  ---
+=========================*/
+
+
+[class*="col-"]{
+
+	width:100%;
+}
+
+[class*="col-"]{
+
+	float:left;
+}
+
+.nav-bar{
+
+	background-color: cadetblue;
+	padding:10px;
+}
+
+.nav-bar::after{
+
+	content:'';
+	clear:both;
+	display: block;
+}
+
+.logo{
+
+	text-align: center;
+	margin-top: 15px;
+         
+
+}
+
+.header h2{
+    
+    font-size: 2.5rem;
+    color:white;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+    letter-spacing: 4px;
+    color:lightcyan;
+    
+}
+
+
+.link a{
+
+	
+	text-decoration: none;
+	display: block;
+	background-color: rgba(0,0,0,0.3);
+	text-align: center;
+	margin:10px;
+	padding:7px;	
+	font-size: 1.5rem;
+	color:rgb(127, 190, 214);
+	border-radius: 10px;
+	
+
+
+}
+
+.link a:hover{
+
+	background-color: blue;
+	color:white;
+	
+}
+
+
+
+
+
+/*=======================
+  About me style start  ---
+=========================*/
+.about-me-container{
+
+
+}
+
+.about-me-logo{
+
+	margin-top: 15px;
+	text-align: center;
+
+
+}
+.about-me-logo img{
+
+	transition: 5s;
+}
+.about-me-logo img:hover{
+
+	transform: rotate(360deg);
+}
+
+
+.about-me-hr{
+
+	width:300px;
+	border:2px solid;
+	color:cadetblue;
+}
+
+
+.about-me-hr2{
+
+	width:300px;
+	border:2px solid white;
+	color:cadetblue;
+}
+
+
+.about-me-style-text p{
+    
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color:#31698a;
+    line-height:1.5;
+
+}
+
+.bttn{
+
+	padding: 10px;
+	background-color: black;
+	color:whitesmoke;
+	font-size:1rem;
+	border:none;
+	border-radius:5px;
+}
+
+/*====================================
+=== Profile start here    ===========
+=====================================*/
+
+.profile{
+
+	background-color:#39A4AC; 
+	padding:10px;
+	color:white;
+}
+
+.profile-header{
+
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.profile-details{
+       
+       margin-top: 25px;
+}
+.profile-pic{
+
+	text-align: center;
+}
+.profile-pic img{
+
+	border:3px solid white;
+	border-radius: 50px;
+	transition: 3s;
+	padding:5px;
+}
+.profile-contact{
+
+	text-align: center;
+	
+	width:70%;
+	margin:0 auto;
+}
+
+.profile-pic img:hover{
+
+	transform: rotate(360deg);
+}
+
+.site{
+
+	text-decoration: none;
+	color:white;
+}
+
+.profile::after{
+
+	content: '';
+	display: block;
+	clear: both;
+}
+
+[class*="colp-"]{
+
+	width:100%;
+}
+
+
+[class*="colp-"]{
+
+	float:left;
+}
+
+/*====================================
+=== Profile start here    ===========
+=====================================*/
+
+
+.all-card-container{
+
+	display: flex;
+	padding:10px;
+	
+
+	display: flex;
+	flex-direction:column;
+	
+	align-items: center;
+	width:100%;
+
+
+	
+
+}
+
+.all-card-container>div{
+
+	margin:10px;
+}
+.card-1{
+    
+    background-color: gray;
+    border-radius: 10px;
+    float: left;
+   
+    width:100%;
+	
+}
+
+.card-1:hover{
+
+
+	box-shadow: 3px 3px 20px #39A4AC;
+
+
+}
+
+.card-a-pic{
+
+	text-align: center;
+	padding: 10px;
+}
+.card-a-pic img{
+
+	text-align: center;
+	border:2px solid white;
+	border-radius: 50%;
+}
+
+.card-1-title{
+
+	padding: 10px;
+	background-color: navy;
+	color:white;
+	text-align: center;
+}
+
+.card-2{
+
+	
+	
+	background-color: gray;
+    border-radius: 10px;
+   
+    width:100%;
+}
+.card-2:hover{
+
+
+	box-shadow: 3px 3px 20px #39A4AC;
+
+
+}
+
+.card-3{
+
+	
+	
+	background-color: gray;
+    border-radius: 10px;
+    
+    width:100%;
+}
+.card-3:hover{
+
+
+	box-shadow: 3px 3px 20px #39A4AC;
+
+
+}
+
+
+/*contact style start here
+===========================*/
+
+.contact-container{
+
+           
+           background-color: #39a4ac;
+           padding: 15px;
+           color: white;
+
+
+
+}
+
+.c-hr{
+
+
+	border:2px solid white;
+	width:250px;
+
+}
+
+.achivment h2{
+
+     text-align: center;	
+}
+
+.achivment ol li{
+
+     margin-top:10px;
+     font-size: 1.3rem;	
+}
+
+.contact-me{
+
+	text-align: center;
+
+}
+
+.name-input{
+    
+    width:300px;
+    
+    margin:10px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+}
+
+.email-input{
+
+	 width:300px;
+    
+    margin:10px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.msg-input{
+
+	width:300px;
+	
+    margin:10px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:250px;
+
+
+}
+.contact-me>button{
+
+
+	padding: 10px;
+	background-color: black;
+	color:whitesmoke;
+	font-size:1rem;
+	border:none;
+	border-radius:5px;
+
+}
+
+.more-ways{
+
+	text-align: center;
+}
+
+[class*="colc-"]{
+
+	width:100%;
+}
+
+[class*="colc-"]{
+
+	float: left;
+}
+
+.contact-container::after{
+
+           content: '';
+           clear: both;
+           display: block;
+
+
+
+}
+
+
+
+/*footer styl start here
+========================*/
+.footer-container{
+
+	padding:10px;
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+.footer-nav{
+
+
+}
+
+.home1{
+
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+.home1 a{
+
+	text-decoration: none;
+	color: white;
+	padding:10px;
+}
+
+.footer-container::after{
+
+	content: '';
+	clear: both;
+	display: block;
+}
+
+
+
+
+

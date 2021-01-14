@@ -1,0 +1,149 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+/*=======================
+  Nav style start  ---
+=========================*/
+
+
+.nav-bar{
+
+	padding:0px;
+}
+.logo{
+
+	text-align: left;
+	padding:5px;
+}
+.header{
+
+	padding:10px;
+}
+.link{
+
+	display:flex;
+	justify-content: flex-end;
+	padding:25px;
+	margin-top:20px;
+
+}
+
+.link a{
+
+	background-color: transparent;
+	color:white;
+	width:100px;
+	padding:10px;
+
+
+}
+
+.link a:hover{
+
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 0px;
+
+   
+}
+
+.home:hover>.home-link{
+
+	height:180px;
+
+	}
+
+
+
+/*=======================
+  profile style start  ---
+=========================*/
+
+
+..colp-1 {width: 8.33%;}
+.colp-2 {width: 16.66%;}
+.colp-3 {width: 25%;}
+.colp-4 {width: 33.33%;}
+.colp-5 {width: 41.66%;}
+.colp-6 {width: 50%;}
+.colp-7 {width: 58.33%;}
+.colp-8 {width: 66.66%;}
+.colp-9 {width: 75%;}
+.colp-10 {width: 83.33%;}
+.colp-11 {width: 91.66%;}
+.colp-12 {width: 100%;}
+
+
+.profile-pic{
+
+	margin-top:60px;
+}
+.profile-pic img{
+
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+}
+
+.profile-contact{
+
+	text-align: left;
+}
+
+/*=======================
+ Card style start  ---
+=========================*/
+.all-card-container{
+
+	display: flex;
+	padding:10px;
+	flex-direction: row;
+	
+}
+
+
+/*contact style for desktop
+===========================*/
+
+
+
+..colc-1 {width: 8.33%;}
+.colc-2 {width: 16.66%;}
+.colc-3 {width: 25%;}
+.colc-4 {width: 33.33%;}
+.colc-5 {width: 41.66%;}
+.colc-6 {width: 50%;}
+.colc-7 {width: 58.33%;}
+.colc-8 {width: 66.66%;}
+.colc-9 {width: 75%;}
+.colc-10 {width: 83.33%;}
+.colc-11 {width: 91.66%;}
+.colc-12 {width: 100%;}
+
+.footer-nav{
+
+	display: flex;
+	align-items: center;
+} 
+.home1{
+
+	margin-top:25px;
+}
+
+.home1 a:hover{
+
+	color: #39a4ac;
+}
